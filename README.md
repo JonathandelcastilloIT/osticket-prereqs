@@ -70,6 +70,43 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 ![image](https://github.com/user-attachments/assets/294e336b-3eb7-4d03-a561-4171b080ad47)
 
 
+6. Creat a directoy in the C drive 
+
+- Go to file explorer and creat the directory C:\PHP
+![image](https://github.com/user-attachments/assets/61df1d0c-6c8a-4094-a42a-12445ed66dcd)
+
+7. From the osTicket-Installation-Files intall(php-7.3.8-nts-Win32-VC15-x86.zip) into C:\PHP
+
+- From osTicket-Installation-Files unzip the content into the newly created C:\PHP
+
+![image](https://github.com/user-attachments/assets/a25b7d28-338a-4f58-be0d-f055e645b7c7)
+
+8. Download and Install the (VC_redist.x86.exe) 
+
+- install from the osTicket-Installation-Files
+![image](https://github.com/user-attachments/assets/9a70d19f-c771-458f-a446-97f976109788)
+
+9. Download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
+- install from the osTicket-Installation-Files
+
+- select the following configurations;
+
+  ->Typical setup
+
+  ->launch configuration
+
+
+  ->Standard configuration
+
+  ![image](https://github.com/user-attachments/assets/0c20332f-c755-4b52-a890-baca66a769b0)
+
+ - the user for this service is going to (username:root) (password:root) for my sql server
+![image](https://github.com/user-attachments/assets/4ca0c95e-e6a3-4fc4-9d8d-d4c3059c281c)
+
+
+
+
+
 
 
 
