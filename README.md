@@ -43,13 +43,18 @@ This tutorial outlines the prerequisites and installation of the open-source hel
    
 ![image](https://github.com/user-attachments/assets/871155b7-1c14-4160-ab8f-5d96b6a90f9f)
 
-2. Inside your VM download the [osTicket-Installation-Files.zip](https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD)and unzip it onto your desktop. we will use the files to download osticket.
+2. Download the osTicket-Installation-Files.zip
 
-
+- Inside your VM download the [osTicket-Installation-Files.zip](https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD)and unzip it onto your desktop. we will use the files to download osticket.
 ![image](https://github.com/user-attachments/assets/3b361ac4-d206-4ee9-bc24-bb7dfd7f2a20)
 
+3. Enable ISS with CGI
 
+- Go to the Control Panel and open the programs applet. Under programs, select "Turn Windows features on or off".
+![image](https://github.com/user-attachments/assets/a1f6a130-c77b-4975-8c5d-7617ee57589c)
 
+- enable (internet information services) World Wide Web Services -> Application Development Features -> enable (CGI)
+![image](https://github.com/user-attachments/assets/33e9c604-072b-4a04-9276-8eead0f6ea34)
 
 
 
