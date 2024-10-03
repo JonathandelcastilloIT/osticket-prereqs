@@ -36,6 +36,28 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Create a new VM with Windows Server.
 ![image](https://github.com/user-attachments/assets/3ef6412d-12eb-4197-b368-5145b66ebf51)
 
+- Connect to your VM using the Remote Desktop with the public IP address form the VM. (for mac user use the "windows app")
+![image](https://github.com/user-attachments/assets/d5754cfa-60fa-45e3-80a9-0498054b379a)
+
+- login with the same login credentials used to create the VM.
+   
+![image](https://github.com/user-attachments/assets/871155b7-1c14-4160-ab8f-5d96b6a90f9f)
+
 2. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
