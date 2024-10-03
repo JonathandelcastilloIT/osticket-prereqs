@@ -56,6 +56,13 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - enable (internet information services) World Wide Web Services -> Application Development Features -> enable (CGI)
 ![image](https://github.com/user-attachments/assets/33e9c604-072b-4a04-9276-8eead0f6ea34)
 
+- Test if the changes were applied succesfully, type 127.0.0.1 on your browser and the page below should appear.
+![image](https://github.com/user-attachments/assets/53698717-7b46-4a56-a0b8-a78511406fcd)
+
+
+
+
+
 
 
 
