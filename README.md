@@ -59,14 +59,15 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Test if the changes were applied succesfully, type 127.0.0.1 on your browser and the page below should appear.
 ![image](https://github.com/user-attachments/assets/53698717-7b46-4a56-a0b8-a78511406fcd)
 
+4. Download and install PHP manager from the osTicket-Installation-Files
+- (PHPManagerForIIS_V1.5.0.msi)
 
+![image](https://github.com/user-attachments/assets/92eee3dd-bac3-4db0-b58e-ff75e6caa7a4)
 
+5. Download and Install the Rewrite Module
 
-
-
-
-
-
+- (rewrite_amd64_en-US.msi) from the osTicket-Installation-Files
+![image](https://github.com/user-attachments/assets/294e336b-3eb7-4d03-a561-4171b080ad47)
 
 
 
