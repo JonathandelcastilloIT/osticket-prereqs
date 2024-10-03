@@ -103,6 +103,55 @@ This tutorial outlines the prerequisites and installation of the open-source hel
  - the user for this service is going to (username:root) (password:root) for my sql server
 ![image](https://github.com/user-attachments/assets/4ca0c95e-e6a3-4fc4-9d8d-d4c3059c281c)
 
+10. Launch IIS as an administrator
+
+- Search for IIS in the windows search bar and right click it and select open as administrator
+![image](https://github.com/user-attachments/assets/a9393ae1-8b51-42be-9de6-f9199259fd50)
+
+11. Register PHP from within lIS
+- open the PHP manager
+- Register new PHP version
+![image](https://github.com/user-attachments/assets/961bd3e9-90c0-4dca-a8ad-d69eeb9dfee9)
+
+-browse (...)
+
+- go to your C drive
+
+- PHP folder
+
+- php-cgi
+![image](https://github.com/user-attachments/assets/3d145a38-bc83-4973-aa9d-0689354e6cce)
+
+12. Reload IIS (Open IIS, Stop and Start the server)
+
+ -The restart button can be found on the right side of the window
+ 
+![image](https://github.com/user-attachments/assets/eb54573c-2f93-4b3d-85ff-b4eaf8a36a3d)
+
+13. Download and install osTicket
+
+-from the osTicket-Installation-Files unzip or extract the (osTicketv1.15.8)
+
+![image](https://github.com/user-attachments/assets/cddae31a-a0f3-47e6-91ab-95726e5302e6)
+
+-after extracting the folder click on the folder and then copy the "upload" folder into "c: linetpub\wwwroot"
+
+
+
+
+
+
+- open file explorer
+- C drive
+- inetpub
+- wwwroot
+![image](https://github.com/user-attachments/assets/66ceebec-3b93-4cf8-a458-c6536cadc124)
+
+- Within "c: linetpub|wwwroot", Rename "upload" to "osTicket"
+
+![image](https://github.com/user-attachments/assets/739a5d7c-0720-4e75-9196-6b6004b6696a)
+
+
 
 
 
