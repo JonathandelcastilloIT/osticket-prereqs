@@ -43,9 +43,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
    
 ![image](https://github.com/user-attachments/assets/871155b7-1c14-4160-ab8f-5d96b6a90f9f)
 
-2. 
-
-
+2. Inside your VM download the osTicket-Installation-Files.zip and unzip it onto your desktop. we will use the files to download osticket.
+![image](https://github.com/user-attachments/assets/3b361ac4-d206-4ee9-bc24-bb7dfd7f2a20)
 
 
 
