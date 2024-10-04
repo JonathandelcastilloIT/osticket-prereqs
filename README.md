@@ -225,11 +225,34 @@ go to add-> select principal-> Everyone-> click full access-> apply-> ok
 
 ![image](https://github.com/user-attachments/assets/4e0ec4d0-ce87-4fc0-a182-799813e568b1)
 
+24. Download and install Heidi SQL from the osTicket-Installation-Files
 
+![image](https://github.com/user-attachments/assets/2ae5184e-755d-43d8-a198-681c9c92248d)
 
+- Open Heidi SQL and create a new session 
+- fill in username and password as root
 
+username:root 
+password:root 
 
+- then click open
 
+![image](https://github.com/user-attachments/assets/ae9c7868-3225-4bd2-81cb-030ccb11d160)
 
+25. Create new database
+
+- On the left side of the window, right click on "Unnamed" and click create new database and name it "osTicket".
+
+![image](https://github.com/user-attachments/assets/e45954d5-7f17-43b4-a7ea-7e11bb973f62)
+
+26. Finish signing in database settings
+
+- Then go back to your osTicket browser and fill up the missing credentials. It should look something like this.
+
+  
+![image](https://github.com/user-attachments/assets/c5d403ab-5b25-416f-90df-305620b5b653)
+
+27. Finalize osticket installation
+![image](https://github.com/user-attachments/assets/39fb604c-fd30-4b47-8899-45e1ef2ac436)
 
 
