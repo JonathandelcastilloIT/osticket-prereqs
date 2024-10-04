@@ -255,4 +255,5 @@ password:root
 27. Finalize osticket installation
 ![image](https://github.com/user-attachments/assets/39fb604c-fd30-4b47-8899-45e1ef2ac436)
 
+Congratulations you just installed osTicket
 
