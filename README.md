@@ -249,6 +249,7 @@ password:root
 
 - Then go back to your osTicket browser and fill up the missing credentials. It should look something like this.
 
+- install now 
   
 ![image](https://github.com/user-attachments/assets/c5d403ab-5b25-416f-90df-305620b5b653)
 
