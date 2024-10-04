@@ -151,9 +151,46 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 ![image](https://github.com/user-attachments/assets/739a5d7c-0720-4e75-9196-6b6004b6696a)
 
+14. Reload IIS as admin (Open IIS, Stop and Start the server)
+
+ -The restart button can be found on the right side of the window
+ 
+![image](https://github.com/user-attachments/assets/eb54573c-2f93-4b3d-85ff-b4eaf8a36a3d)
+
+15. Launch osTicket
+
+ -On the left hand side of IIS, Expand on the VM name -> Sites - > Default Website -> osTicket
+
+- click on browse *:80(http)
+
+![image](https://github.com/user-attachments/assets/aa9aa5fc-f23e-405b-85bb-da33911e545f)
 
 
+- This should then lead to your browser opening osTicket.
+![image](https://github.com/user-attachments/assets/2a283552-dc7b-41cb-938c-1cb8b14258aa)
 
+16. Enable extensions
+
+- open IIS, sites -> Default -> osTicket
+- Double-click PHP Manager
+
+![image](https://github.com/user-attachments/assets/93f46eaa-236b-4042-ac82-ee41364d959f)
+
+
+Click “Enable or disable an extension”
+
+- Enable: php_imap.dll
+- Enable: php_intl.dll
+- Enable: php_opcache.dll
+
+![image](https://github.com/user-attachments/assets/60d0a97e-4f66-44a2-8f85-241360305bcb)
+
+17.Refresh osTicket
+
+- Refresh the osTicket site in your browser, observe the changes
+
+![image](https://github.com/user-attachments/assets/8e5412dc-6974-40d3-979f-a773280450cc)
+  
 
 
 
