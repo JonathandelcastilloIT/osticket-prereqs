@@ -187,12 +187,43 @@ Click “Enable or disable an extension”
 
 17.Refresh osTicket
 
-- Refresh the osTicket site in your browser, observe the changes
+- Refresh the osTicket site in your browser, some extensions will now appear active 
 
 ![image](https://github.com/user-attachments/assets/8e5412dc-6974-40d3-979f-a773280450cc)
-  
+
+18.Change ost-config.ph  
 
 
+- Rename: ost-config.php
+
+From: C:\inetpub|wwwrootlosTicket\includelost-sampleconfig.php
+
+
+To: C. linetpubiwwwrootlos Ticketinclude lost-config.php
+
+- rename "ost-sampleconfig.ph" to "ost-config.ph"
+![image](https://github.com/user-attachments/assets/7ebb49ac-8bf3-41aa-930f-386232fd9444)
+
+22. Change ost-config.ph permissions
+
+- Change ost-config.php permissions by right clicking and selecting
+
+- Properties -> Security -> Advance -> Disable inheritance
+
+- Disable inheritance -> Remove All
+![image](https://github.com/user-attachments/assets/c7794c10-8331-45a4-a8c5-db3433a37310)
+
+- New Permissions -> Everyone -> All|
+
+go to add-> select principal-> Everyone-> click full access-> apply-> ok
+
+![image](https://github.com/user-attachments/assets/a6ee49cd-67a1-4cc0-89df-62e42b4ddcf1)
+
+23. Continue osTicket installation
+
+- Continue the osTicket installer on your browser by filling the first half of the page.
+
+![image](https://github.com/user-attachments/assets/4e0ec4d0-ce87-4fc0-a182-799813e568b1)
 
 
 
