@@ -51,12 +51,20 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 3. Enable ISS with CGI
 
 - Go to the Control Panel and open the programs applet. Under programs, select "Turn Windows features on or off".
+
+
 ![image](https://github.com/user-attachments/assets/a1f6a130-c77b-4975-8c5d-7617ee57589c)
 
+
 - enable (internet information services) World Wide Web Services -> Application Development Features -> enable (CGI)
+
+
 ![image](https://github.com/user-attachments/assets/33e9c604-072b-4a04-9276-8eead0f6ea34)
 
+
 - Test if the changes were applied succesfully, type 127.0.0.1 on your browser and the page below should appear.
+
+
 ![image](https://github.com/user-attachments/assets/53698717-7b46-4a56-a0b8-a78511406fcd)
 
 4. Download and install PHP manager from the osTicket-Installation-Files
@@ -67,26 +75,32 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 5. Download and Install the Rewrite Module
 
 - (rewrite_amd64_en-US.msi) from the osTicket-Installation-Files
+
 ![image](https://github.com/user-attachments/assets/294e336b-3eb7-4d03-a561-4171b080ad47)
 
 
 6. Creat a directoy in the C drive 
 
 - Go to file explorer and creat the directory C:\PHP
+
+
 ![image](https://github.com/user-attachments/assets/61df1d0c-6c8a-4094-a42a-12445ed66dcd)
 
 7. From the osTicket-Installation-Files intall(php-7.3.8-nts-Win32-VC15-x86.zip) into C:\PHP
 
 - From osTicket-Installation-Files unzip the content into the newly created C:\PHP
 
+
 ![image](https://github.com/user-attachments/assets/a25b7d28-338a-4f58-be0d-f055e645b7c7)
 
 8. Download and Install the (VC_redist.x86.exe) 
 
 - install from the osTicket-Installation-Files
+
 ![image](https://github.com/user-attachments/assets/9a70d19f-c771-458f-a446-97f976109788)
 
 9. Download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
+
 - install from the osTicket-Installation-Files
 
 - select the following configurations;
@@ -101,16 +115,22 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   ![image](https://github.com/user-attachments/assets/0c20332f-c755-4b52-a890-baca66a769b0)
 
  - the user for this service is going to (username:root) (password:root) for my sql server
+
+
 ![image](https://github.com/user-attachments/assets/4ca0c95e-e6a3-4fc4-9d8d-d4c3059c281c)
 
 10. Launch IIS as an administrator
 
 - Search for IIS in the windows search bar and right click it and select open as administrator
+
+
 ![image](https://github.com/user-attachments/assets/a9393ae1-8b51-42be-9de6-f9199259fd50)
 
 11. Register PHP from within lIS
 - open the PHP manager
 - Register new PHP version
+
+
 ![image](https://github.com/user-attachments/assets/961bd3e9-90c0-4dca-a8ad-d69eeb9dfee9)
 
 -browse (...)
@@ -120,6 +140,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - PHP folder
 
 - php-cgi
+
+
 ![image](https://github.com/user-attachments/assets/3d145a38-bc83-4973-aa9d-0689354e6cce)
 
 12. Reload IIS (Open IIS, Stop and Start the server)
@@ -145,6 +167,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - C drive
 - inetpub
 - wwwroot
+
+
 ![image](https://github.com/user-attachments/assets/66ceebec-3b93-4cf8-a458-c6536cadc124)
 
 - Within "c: linetpub|wwwroot", Rename "upload" to "osTicket"
@@ -167,6 +191,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 
 - This should then lead to your browser opening osTicket.
+
+
 ![image](https://github.com/user-attachments/assets/2a283552-dc7b-41cb-938c-1cb8b14258aa)
 
 16. Enable extensions
@@ -202,6 +228,8 @@ From: C:\inetpub|wwwrootlosTicket\includelost-sampleconfig.php
 To: C. linetpubiwwwrootlos Ticketinclude lost-config.php
 
 - rename "ost-sampleconfig.ph" to "ost-config.ph"
+
+
 ![image](https://github.com/user-attachments/assets/7ebb49ac-8bf3-41aa-930f-386232fd9444)
 
 22. Change ost-config.ph permissions
@@ -211,6 +239,8 @@ To: C. linetpubiwwwrootlos Ticketinclude lost-config.php
 - Properties -> Security -> Advance -> Disable inheritance
 
 - Disable inheritance -> Remove All
+
+
 ![image](https://github.com/user-attachments/assets/c7794c10-8331-45a4-a8c5-db3433a37310)
 
 - New Permissions -> Everyone -> All|
@@ -233,6 +263,8 @@ go to add-> select principal-> Everyone-> click full access-> apply-> ok
 - fill in username and password as root
 
 username:root 
+
+
 password:root 
 
 - then click open
